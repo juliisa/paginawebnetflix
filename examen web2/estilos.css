@@ -1,0 +1,24 @@
+.carousel-container {
+        margin-top: 10px; /* Espaciado debajo del menú */
+        width: 100%;
+        height: 80vh; /* Ajusta la altura del carrusel */
+        overflow: hidden;
+}
+    
+.carousel-inner img {
+        height: 100%;
+        object-fit: cover; 
+     }
+ 
+
+.pin .stars {
+    display: flex;
+    justify-content: center; /* Centra las estrellas horizontalmente */
+    margin-top: 10px; /* Espaciado superior */
+}
+
+.pin .stars img {
+    width: 1px; /* Ajusta el tamaño de las estrellas */
+    height: 1px;
+    margin: 0 2px; /* Espaciado entre las estrellas */
+}
